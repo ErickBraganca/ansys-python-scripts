@@ -7,7 +7,7 @@
 ## 💻 Technologies
 <div style="display: inline_block">
   <img align="center" alt="Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-  <img align="center" alt="Ansys" height="30" width="40" src="https://github.com/ansys/.github/blob/main/images/ansys-logo.png"/>
+  <img align="center" alt="Ansys" height="30" src="https://github.com/ansys/.github/blob/main/images/ansys-logo.png"/>
 </div><br>
 
 ## 🛠 Tools
