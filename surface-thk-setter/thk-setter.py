@@ -1,11 +1,10 @@
 '''
     Please use this script to extract the thickness value from the geometry name
     and apply it in surface props.
-    For proper functionality, it's important to use a colon (-) and [-]
+    For proper functionality, it's important to use a colon (_)
     to separate the surface name and the thickness value.
 
-    Example: [Surface Srf1 - 9.53]
-
+    Example: [Srf1_9.53]
     Developed by: Erick Braganca / Fernando Luiz
 '''
 # Function for thikness set
@@ -14,7 +13,7 @@ def setSurfaceThk(surface):
     surface_name = surface.Name
 
     # Obtain the range where the numbe is placed
-    start_index = surface_name.find("-") + 1
+    start_index = surface_name.find("_") + 1
     end_index = surface_name.find("]", start_index)
     surface_thk_string = surface_name[start_index:end_index].strip()
 
